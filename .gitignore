@@ -1,0 +1,15 @@
+# Secretos y credenciales críticas
+.streamlit/secrets.toml
+credentials.json
+*.json
+
+# Ignorar scripts de prueba
+test_*.py
+
+# Entornos virtuales y caché de Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
